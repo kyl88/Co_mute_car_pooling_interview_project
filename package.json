@@ -7,7 +7,7 @@
     "dev": "nodemon",
     "start": "node ."
   },
-  "author": "El omary",
+  "author": "Kyle",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",

@@ -13,7 +13,7 @@ const Add = async (req, res) => {
   if (isCreated) {
     res.status(201).json({
       status: 201,
-      message: "OPPORTINUTY CREATED",
+      message: "OPPORTUNITY CREATED",
     });
   } else {
     res.status(400).json({

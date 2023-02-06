@@ -13,7 +13,7 @@ const jwtVerification = async (req, res, next) => {
   } catch (e) {
     res.status(401).json({
       status: 401,
-      message: "UNOTHROIZED",
+      message: "UNAUTHORIZED",
     });
   }
 };
